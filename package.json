@@ -1,0 +1,13 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwind -i ./src/tailwind.css -o ./output/style.css -w"
+  },
+  "author": "Md Al Mamun",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^2.2.17"
+  }
+}
